@@ -1,6 +1,5 @@
 const puppeteer = require('puppeteer');
 const fs = require('fs');
-//cookies expire 2022
 (async () => {
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
